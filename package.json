@@ -1,8 +1,8 @@
 {
     "name": "@adiacentlib/tempoclient4",
-    "version": "1.0.1",
-    "main": "app.js",
-    "types": "app.d.ts",
+    "version": "1.0.2",
+    "main": "lib/app.js",
+    "types": "lib/app.d.ts",
     "dependencies": {
         "fs": "^0.0.1-security",
         "http": "^0.0.1-security"
