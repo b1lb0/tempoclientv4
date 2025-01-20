@@ -1,6 +1,6 @@
 {
     "name": "@adiacentlib/tempoclient4",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "app.js",
     "types": "app.d.ts",
     "dependencies": {
@@ -8,7 +8,7 @@
         "http": "^0.0.1-security"
     },
     "description": "Tempo client v4 for javascript",
-    "private": true,
+    "private": false,
     "scripts": {
       "build": "./node_modules/typescript/bin/tsc",
       "format": "prettier --write \"src/**/*.ts\"",
