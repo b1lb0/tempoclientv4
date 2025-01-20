@@ -1,23 +1,30 @@
 import { AccountCategoriesApi } from './api/';
+import { AccountCategoryTypesApi } from './api/';
 import { AccountLinksApi } from './api/';
+import { AccountsApi } from './api/';
+import { CustomersApi } from './api/';
+import { FlexPlansApi } from './api/';
 import { GenericResourcesApi } from './api/';
+import { GenericResourceTeamMembersApi } from './api/';
+import { GlobalConfigurationsApi } from './api/';
 import { HolidaySchemesApi } from './api/';
+import { PeriodsApi } from './api/';
 import { PermissionRolesApi } from './api/';
+import { PlanApprovalsApi } from './api/';
+import { PlansApi } from './api/';
+import { ProgramApi } from './api/';
 import { RolesApi } from './api/';
+import { SkillAssignmentsApi } from './api/';
+import { SkillsApi } from './api/';
+import { TeamApi } from './api/';
 import { TeamLinksApi } from './api/';
+import { TeamMembershipsApi } from './api/';
+import { TimesheetApprovalsApi } from './api/';
 import { UserScheduleApi } from './api/';
+import { WorkAttributesApi } from './api/';
 import { WorkloadSchemesApi } from './api/';
 import { WorklogsApi } from './api/';
-import { ProgramApi } from './api/';
-import { WorkAttributesApi } from './api/';
-import { TimesheetApprovalsApi } from './api/';
-import { TeamMembershipsApi } from './api/';
-import { PlansApi } from './api/';
-import { PeriodsApi } from './api/';
-import { GlobalConfigurationsApi } from './api/';
-import { CustomersApi } from './api/';
-import { AccountCategoryTypesApi } from './api/';
-import { AccountsApi } from './api/';
+
 import { HttpBearerAuth } from './model/models';
 
 // This is the entrypoint for the package
@@ -31,22 +38,29 @@ export interface TempoApiOptions {
 export default class TempoApi {
     readonly config: TempoApiOptions;
     readonly auth: HttpBearerAuth;
+
+
     readonly accountCategories: AccountCategoriesApi = new AccountCategoriesApi();
     readonly accountCategoryTypes: AccountCategoryTypesApi = new AccountCategoryTypesApi();
     readonly accountLinks: AccountLinksApi = new AccountLinksApi();
     readonly accounts: AccountsApi = new AccountsApi();
     readonly customers: CustomersApi = new CustomersApi();
     readonly genericResources: GenericResourcesApi = new GenericResourcesApi();
+    readonly genericResourceTeamMembers: GenericResourceTeamMembersApi = new GenericResourceTeamMembersApi();
     readonly globalConfiguration: GlobalConfigurationsApi = new GlobalConfigurationsApi();
     readonly holidaySchemes: HolidaySchemesApi = new HolidaySchemesApi();
     readonly periods: PeriodsApi = new PeriodsApi();
     readonly permissionRoles: PermissionRolesApi = new PermissionRolesApi();
+    readonly planApprovals: PlanApprovalsApi = new PlanApprovalsApi();
     readonly plans: PlansApi = new PlansApi();
     readonly programs: ProgramApi = new ProgramApi();
     readonly roles: RolesApi = new  RolesApi();
+    readonly skillAssignments: SkillAssignmentsApi = new  SkillAssignmentsApi();
+    readonly skills: SkillsApi = new  SkillsApi();
+    readonly teams: TeamApi = new TeamApi();
+    readonly flexPlans: FlexPlansApi = new FlexPlansApi();
     readonly teamMemberships: TeamMembershipsApi = new TeamMembershipsApi();
     readonly teamLinks: TeamLinksApi = new TeamLinksApi();
-    readonly teams: TeamLinksApi = new TeamLinksApi();
     readonly timesheetApprovals: TimesheetApprovalsApi = new TimesheetApprovalsApi();
     readonly userSchedule: UserScheduleApi = new UserScheduleApi();
     readonly workAttributes: WorkAttributesApi = new WorkAttributesApi();
@@ -54,6 +68,7 @@ export default class TempoApi {
     readonly worklogs: WorklogsApi = new WorklogsApi();
     constructor(options: TempoApiOptions) {
         this.config = options
+
         this.auth = new HttpBearerAuth()
         this.auth.accessToken = this.config.bearerToken
         this.accountCategories.setDefaultAuthentication(this.auth)
