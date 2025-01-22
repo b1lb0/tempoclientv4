@@ -21,6 +21,7 @@ export declare class UserContact {
     * A permanent link to this resource
     */
     'self': string;
+    'displayName'?: string;
     'type'?: UserContact.TypeEnum;
     static discriminator: string | undefined;
     static attributeTypeMap: Array<{

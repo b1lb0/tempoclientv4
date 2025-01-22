@@ -24,6 +24,7 @@ export class UserContact {
     * A permanent link to this resource
     */
     'self': string;
+    'displayName'?: string;
     'type'?: UserContact.TypeEnum;
 
     static discriminator: string | undefined = undefined;
@@ -37,6 +38,11 @@ export class UserContact {
         {
             "name": "self",
             "baseName": "self",
+            "type": "string"
+        },
+        {
+            "name": "displayName",
+            "baseName": "displayName",
             "type": "string"
         },
         {
