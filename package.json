@@ -1,6 +1,6 @@
 {
     "name": "@adiacentlib/tempoclient4",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "main": "lib/api.js",
     "types": "lib/api.d.ts",
     "dependencies": {
@@ -10,12 +10,12 @@
     "description": "Tempo client v4 for javascript",
     "private": false,
     "scripts": {
-      "build": "./node_modules/typescript/bin/tsc",
-      "format": "prettier --write \"src/**/*.ts\"",
-      "lint": "tslint -p tsconfig.json"
+        "build": "./node_modules/typescript/bin/tsc",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "lint": "tslint -p tsconfig.json"
     },
     "files": [
-      "lib/**/*"
+        "lib/**/*"
     ],
     "keywords": [],
     "author": "t.caneschi@adiacent.com",
