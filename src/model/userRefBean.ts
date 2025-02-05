@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 
 /**
 * The creator of the `Generic Resource`

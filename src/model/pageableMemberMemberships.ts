@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { MemberMemberships } from './memberMemberships';
 import { PageableMetadata } from './pageableMetadata';
 

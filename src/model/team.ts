@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { ProgramReference } from './programReference';
 import { Self } from './self';
 import { SelfLink } from './selfLink';

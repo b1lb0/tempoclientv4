@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 
 /**
 * The collection of links pointing to this Team

@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 
 /**
 * The list of days and their required hours in this `WorkloadScheme`

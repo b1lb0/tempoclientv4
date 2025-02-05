@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { ResultsMetadata } from './resultsMetadata';
 import { Role } from './role';
 

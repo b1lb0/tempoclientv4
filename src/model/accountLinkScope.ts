@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 
 /**
 * Link to the scope of the `AccountLink`

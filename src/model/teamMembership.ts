@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { RoleReference } from './roleReference';
 import { TeamMember } from './teamMember';
 import { TeamRef } from './teamRef';

@@ -57,6 +57,5 @@ export declare class HttpError extends Error {
     statusCode?: number | undefined;
     constructor(response: http.IncomingMessage, body: any, statusCode?: number | undefined);
 }
-export { RequestFile } from '../model/models';
 export declare const APIS: (typeof AccountCategoriesApi | typeof AccountCategoryTypesApi | typeof AccountLinksApi | typeof AccountsApi | typeof CustomersApi | typeof FlexPlansApi | typeof GenericResourceTeamMembersApi | typeof GenericResourcesApi | typeof GlobalConfigurationsApi | typeof HolidaySchemesApi | typeof PeriodsApi | typeof PermissionRolesApi | typeof PlanApprovalsApi | typeof PlansApi | typeof ProgramApi | typeof RolesApi | typeof SkillAssignmentsApi | typeof SkillsApi | typeof TeamApi | typeof TeamLinksApi | typeof TeamMembershipsApi | typeof TimesheetApprovalsApi | typeof UserScheduleApi | typeof WorkAttributesApi | typeof WorkloadSchemesApi | typeof WorklogsApi)[];
 //# sourceMappingURL=index.d.ts.map

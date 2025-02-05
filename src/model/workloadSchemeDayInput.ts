@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 
 /**
 * The list of days and their required hours in the workload scheme. This list must be unique and contains all weekdays [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]

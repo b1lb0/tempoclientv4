@@ -59,6 +59,4 @@ export class HttpError extends Error {
     }
 }
 
-export { RequestFile } from '../model/models';
-
 export const APIS = [AccountCategoriesApi, AccountCategoryTypesApi, AccountLinksApi, AccountsApi, CustomersApi, FlexPlansApi, GenericResourceTeamMembersApi, GenericResourcesApi, GlobalConfigurationsApi, HolidaySchemesApi, PeriodsApi, PermissionRolesApi, PlanApprovalsApi, PlansApi, ProgramApi, RolesApi, SkillAssignmentsApi, SkillsApi, TeamApi, TeamLinksApi, TeamMembershipsApi, TimesheetApprovalsApi, UserScheduleApi, WorkAttributesApi, WorkloadSchemesApi, WorklogsApi];

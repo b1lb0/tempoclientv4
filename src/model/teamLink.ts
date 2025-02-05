@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { Team } from './team';
 import { TeamLinkScope } from './teamLinkScope';
 

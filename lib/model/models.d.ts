@@ -153,15 +153,6 @@ export * from './worklogIdMapper';
 export * from './worklogInput';
 export * from './worklogSearchInput';
 export * from './worklogUpdate';
-import * as fs from 'fs';
-export interface RequestDetailedFile {
-    value: Buffer;
-    options?: {
-        filename?: string;
-        contentType?: string;
-    };
-}
-export type RequestFile = string | Buffer | fs.ReadStream | RequestDetailedFile;
 export declare class ObjectSerializer {
     static findCorrectType(data: any, expectedType: string): any;
     static serialize(data: any, type: string): any;

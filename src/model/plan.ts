@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { PlanApproval } from './planApproval';
 import { PlanAssignee } from './planAssignee';
 import { PlanItem } from './planItem';

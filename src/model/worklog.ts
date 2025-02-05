@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { Issue } from './issue';
 import { SelfListWorkAttributeValue } from './selfListWorkAttributeValue';
 import { User } from './user';

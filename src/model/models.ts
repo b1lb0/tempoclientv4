@@ -155,19 +155,6 @@ export * from './worklogInput';
 export * from './worklogSearchInput';
 export * from './worklogUpdate';
 
-import * as fs from 'fs';
-
-export interface RequestDetailedFile {
-    value: Buffer;
-    options?: {
-        filename?: string;
-        contentType?: string;
-    }
-}
-
-export type RequestFile = string | Buffer | fs.ReadStream | RequestDetailedFile;
-
-
 import { Account } from './account';
 import { AccountInput } from './accountInput';
 import { AccountLink } from './accountLink';

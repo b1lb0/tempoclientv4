@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { AccountUser } from './accountUser';
 import { Category } from './category';
 import { Customer } from './customer';

@@ -33,7 +33,7 @@ const TempoApi = require('@adiacentlib/tempoclient4');
 import TempoApi from '@adiacentlib/tempoclient4';
 
 const tempo = new TempoApi({
-  bearerToken: 'token',
+  bearerToken: 'XXXXXXX',
 })
 ```
 
@@ -107,6 +107,6 @@ for the Version 4 REST API are implemented as of January 2025. The REST API docu
 
 ### The Tempo Client itself
 
-It's strongly recommended to use TypeScript as code completion will help quite
-a bit with navigating the client, object with typing check.
+It's strongly recommended to use TypeScript as code typing will help quite
+a bit in navigating the client and object structure.
 

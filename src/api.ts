@@ -96,18 +96,3 @@ export default class TempoApi {
 }
 
 module.exports = TempoApi;
-
-/*
-//How to use
-const run = async () => {
-    const tempoClient = new TempoApi({bearerToken: "XXXXXX"})
-    try {
-        const accounts = await tempoClient.accounts.getAccounts(0, 1)
-        console.log(JSON.stringify(accounts.body))
-    } catch (err) {
-        console.log(JSON.stringify(err))
-    }
-}
-
-run()
-*/

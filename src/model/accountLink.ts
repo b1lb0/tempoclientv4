@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { AccountLinkScope } from './accountLinkScope';
 import { Self } from './self';
 

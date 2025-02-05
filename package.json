@@ -1,13 +1,12 @@
 {
     "name": "@adiacentlib/tempoclient4",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "main": "lib/api.js",
     "types": "lib/api.d.ts",
     "dependencies": {
-        "fs": "^0.0.1-security",
         "http": "^0.0.1-security"
     },
-    "description": "Tempo client v4 for javascript",
+    "description": "Tempo rest api client v4",
     "private": false,
     "scripts": {
         "build": "./node_modules/typescript/bin/tsc",
@@ -17,7 +16,7 @@
     "files": [
         "lib/**/*"
     ],
-    "keywords": [],
+    "keywords": ["node", "tempo", "client", "tempo rest api", "tempo rest", "tempo api client"],
     "author": "t.caneschi@adiacent.com",
     "license": "ISC",
     "devDependencies": {

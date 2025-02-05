@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { PageableMetadata } from './pageableMetadata';
 import { User } from './user';
 

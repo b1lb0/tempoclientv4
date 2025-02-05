@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { PlanApprovalInput } from './planApprovalInput';
 
 export class PlanInput {

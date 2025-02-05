@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { PlanMetadata } from './planMetadata';
 import { PlannedTimeValuesPlanDay } from './plannedTimeValuesPlanDay';
 import { PlannedTimeValuesPlanPeriod } from './plannedTimeValuesPlanPeriod';

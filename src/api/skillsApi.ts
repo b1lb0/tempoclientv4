@@ -21,7 +21,7 @@ import { SkillInput } from '../model/skillInput';
 
 import { ObjectSerializer, Authentication, VoidAuth, Interceptor } from '../model/models';
 
-import { HttpError, RequestFile } from './';
+import { HttpError } from './';
 
 let defaultBasePath = 'https://api.tempo.io/4';
 

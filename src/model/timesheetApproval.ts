@@ -10,7 +10,7 @@
  * Do not edit the class manually.
  */
 
-import { RequestFile } from './models';
+
 import { SelfApiBean } from './selfApiBean';
 import { TimesheetApprovalAvailableActions } from './timesheetApprovalAvailableActions';
 import { TimesheetApprovalPeriod } from './timesheetApprovalPeriod';
